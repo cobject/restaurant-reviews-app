@@ -9,6 +9,7 @@ var markers = []
  */
 document.addEventListener('DOMContentLoaded', (event) => {
   initMap(); // added
+  initServiceWorker();
   fetchNeighborhoods();
   fetchCuisines();
 });
@@ -100,6 +101,19 @@ initMap = () => {
   });
   updateRestaurants();
 } */
+
+/**
+ * initServiceWorker
+ */
+initServiceWorker = () => {
+  if(navigator.serviceWorker) {
+    navigator.serviceWorker.register('/sw.js').then(function(reg) {
+      console.log('worked');
+    }).catch(function(){
+      console.log('failed');
+    });
+  }
+}
 
 /**
  * Update page and map for current restaurants.

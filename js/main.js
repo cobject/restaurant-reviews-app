@@ -38,6 +38,7 @@ fillNeighborhoodsHTML = (neighborhoods = self.neighborhoods) => {
     option.innerHTML = neighborhood;
     option.value = neighborhood;
     option.tabIndex = "0";
+    option.setAttribute('role', 'option');
     select.append(option);
   });
 }
@@ -197,6 +198,7 @@ createRestaurantHTML = (restaurant) => {
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
+  more.setAttribute('role', 'button');
   div.append(more)
 
   return div

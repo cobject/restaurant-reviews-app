@@ -12,19 +12,19 @@ This project is making site responsive, accessible and offline first. Source cod
 
 ## Responsive Design
 
-- [ ] Is the site UI compatible with a range of display sizes?
-- [ ] Are images responsive?
-- [ ] Are application elements visible and usable in all viewports?
+- [x] Is the site UI compatible with a range of display sizes?
+- [x] Are images responsive?
+- [x] Are application elements visible and usable in all viewports?
 
 ## Accessibility
 
-- [ ] Are images accessible?
-- [ ] Is focus used appropriately to allow easy navigation of the site?
-- [ ] Are site elements defined semantically?
+- [x] Are images accessible?
+- [x] Is focus used appropriately to allow easy navigation of the site?
+- [x] Are site elements defined semantically?
 
 ## Offline Availability
 
-- [ ] Are pages that have been visited available offline?
+- [x] Are pages that have been visited available offline?
 
 # Style Guide
 
@@ -36,4 +36,6 @@ This project is making site responsive, accessible and offline first. Source cod
 
 # Lessons learned
 
-1. TBD
+1. Production-level page are so challenge
+
+2. Front-end project is more complicated than I expected
